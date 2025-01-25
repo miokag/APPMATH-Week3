@@ -131,7 +131,7 @@ GameObject:
   - component: {fileID: 210096322}
   - component: {fileID: 210096321}
   m_Layer: 0
-  m_Name: Square (1)
+  m_Name: TurretPointer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -166,6 +166,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 932727183}
   turretRange: 0
+  bulletPrefab: {fileID: 0}
+  bulletSpeed: 5
 --- !u!212 &210096322
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -370,7 +372,7 @@ GameObject:
   - component: {fileID: 932727182}
   - component: {fileID: 932727181}
   m_Layer: 0
-  m_Name: Circle
+  m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -433,7 +435,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+  m_Sprite: {fileID: -5177388603050735206, guid: 8884154dfe85442a3a3578be807dbcdf, type: 3}
   m_Color: {r: 0.27313778, g: 0.20714669, b: 0.46226418, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -471,7 +473,7 @@ GameObject:
   - component: {fileID: 1933735913}
   - component: {fileID: 1933735912}
   m_Layer: 0
-  m_Name: Square
+  m_Name: Turret
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -491,6 +493,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 932727183}
   turretRange: 3
+  bulletPrefab: {fileID: 682600341571111436, guid: bf4353a619667d041a84f4cc16cf058c, type: 3}
+  bulletSpeed: 5
 --- !u!212 &1933735913
 SpriteRenderer:
   m_ObjectHideFlags: 0
